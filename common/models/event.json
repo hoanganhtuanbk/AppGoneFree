@@ -1,0 +1,59 @@
+{
+  "name": "Event",
+  "plural": "events",
+  "base": "PersistedModel",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "urlImage": {
+      "type": "string"
+    },
+    "what": {
+      "type": "string"
+    },
+    "why": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "date"
+    },
+    "end_time": {
+      "type": "date"
+    },
+    "timezone": {
+      "type": "String"
+    },
+    "location": {
+      "type": "String"
+    },
+    "url": {
+      "type": "String"
+    },
+    "image": {
+      "type": "String"
+    },
+    "tickets": {
+      "type": "String"
+    },
+    "tags": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
